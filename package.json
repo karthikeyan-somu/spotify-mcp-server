@@ -13,15 +13,20 @@
     "lint:fix": "biome check --write --unsafe --organize-imports-enabled=true",
     "typecheck": "tsc --noEmit"
   },
-  "files": ["build"],
+  "files": [
+    "build"
+  ],
   "keywords": [],
   "author": "Marcel Marais",
   "description": "A Model Context Protocol server for Spotify integration",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.10.1",
     "@spotify/web-api-ts-sdk": "^1.2.0",
+    "node-fetch": "^3.3.2",
     "open": "^10.1.0",
-    "zod": "^3.24.2"
+    "openai-mcp-server": "^0.1.6",
+    "spotify-web-api-node": "^5.0.2",
+    "zod": "^3.25.23"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
