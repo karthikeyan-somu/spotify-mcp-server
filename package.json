@@ -26,11 +26,11 @@
     "open": "^10.1.0",
     "openai-mcp-server": "^0.1.6",
     "spotify-web-api-node": "^5.0.2",
-    "zod": "^3.25.23"
+    "zod": "^4.0.0"
   },
   "devDependencies": {
-    "@biomejs/biome": "^1.9.4",
-    "@types/node": "^22.13.8",
+    "@biomejs/biome": "^2.1.1",
+    "@types/node": "^24.0.12",
     "typescript": "^5.8.2"
   }
 }
